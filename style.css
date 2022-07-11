@@ -44,3 +44,11 @@ body {
     border-radius: 7px;
     border-collapse: collapse;
 }
+
+.btn:hover {
+    color: black;
+    background-color: white;
+    font-size: 29px;
+    border-radius: 15px;
+    font-weight: 500;
+}
