@@ -1,0 +1,174 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+
+        <div id="input"><input type="text" name="input" id="input-field" readonly></div>
+        <div id="row">
+            <div id="btn"><button class="btn" id="clear">C</button></div>
+            <div id="btn"><button class="btn" id="percent">%</button></div>
+            <div id="btn"><button class="btn" id="backspace">del</button></div>
+            <div id="btn"><button class="btn" id="divide">/</button></div>
+        </div>
+
+        <div id="row">
+            <div id="btn"><button class="btn" id="seven">7</button></div>
+            <div id="btn"><button class="btn" id="eight">8</button></div>
+            <div id="btn"><button class="btn" id="nine">9</button></div>
+            <div id="btn"><button class="btn" id="multi">*</button></div>
+        </div>
+
+        <div id="row">
+            <div id="btn"><button class="btn" id="four">4</button></div>
+            <div id="btn"><button class="btn" id="five">5</button></div>
+            <div id="btn"><button class="btn" id="six">6</button></div>
+            <div id="btn"><button class="btn" id="sub">-</button></div>
+        </div>
+
+        <div id="row">
+            <div id="btn"><button class="btn" id="one">1</button></div>
+            <div id="btn"><button class="btn" id="two">2</button></div>
+            <div id="btn"><button class="btn" id="three">3</button></div>
+            <div id="btn"><button class="btn" id="add">+</button></div>
+        </div>
+
+        <div id="row">
+            <div id="btn"><button class="btn" id="dzero">00</button></div>
+            <div id="btn"><button class="btn" id="zero">0</button></div>
+            <div id="btn"><button class="btn" id="dot">.</button></div>
+            <div id="btn"><button class="btn" id="eqaul">=</button></div>
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
+    <script>
+        
+
+
+
+
+        // let clear = document.getElementById("clear") ;
+        // let percent = document.getElementById("percent") ;
+        // let backspace = document.getElementById("backspace") ;
+        // let divide = document.getElementById("divide") ;
+        // let seven = document.getElementById("seven") ;
+        // let eight = document.getElementById("eight") ;
+        // let nine = document.getElementById("nine") ;
+        // let multi = document.getElementById("multi") ;
+        // let four = document.getElementById("four") ;
+        // let five = document.getElementById("five") ;
+        // let six = document.getElementById("six") ;
+        // let sub = document.getElementById("sub") ;
+        // let one = document.getElementById("one") ;
+        // let tow = document.getElementById("two") ;
+        // let three = document.getElementById("three") ;
+        // let add = document.getElementById("add") ;
+        // let dzero = document.getElementById("dzero") ;
+        // let zero = document.getElementById("zero") ;
+        // let dot = document.getElementById("dot") ;
+        // let eqaul = document.getElementById("eqaul") ;
+
+        // clear.addEventListener("click",function(){
+        //     inputtxt.value = "" ;
+        // })
+
+        // one.addEventListener("click",function(){
+        //     let txt = inputtxt.value ;
+        //     txt += "1" ;
+        //     inputtxt.value = txt ;
+        // })
+        // two.addEventListener("click",function(){
+        //     let txt = inputtxt.value ;
+        //     txt += "2" ;
+        //     inputtxt.value = txt ;
+        // })
+        
+        // three.addEventListener("click",function(){
+        //     let txt = inputtxt.value ;
+        //     txt += "3" ;
+        //     inputtxt.value = txt ;
+        // })
+        // four.addEventListener("click",function(){
+        //     let txt = inputtxt.value ;
+        //     txt += "4" ;
+        //     inputtxt.value = txt ;
+        // })
+        // five.addEventListener("click",function(){
+        //     let txt = inputtxt.value ;
+        //     txt += "5" ;
+        //     inputtxt.value = txt ;
+        // })
+        // six.addEventListener("click",function(){
+        //     let txt = inputtxt.value ;
+        //     txt += "6" ;
+        //     inputtxt.value = txt ;
+        // })
+        // seven.addEventListener("click",function(){
+        //     let txt = inputtxt.value ;
+        //     txt += "7" ;
+        //     inputtxt.value = txt ;
+        // })
+        // eight.addEventListener("click",function(){
+        //     let txt = inputtxt.value ;
+        //     txt += "8" ;
+        //     inputtxt.value = txt ;
+        // })
+        // nine.addEventListener("click",function(){
+        //     let txt = inputtxt.value ;
+        //     txt += "9" ;
+        //     inputtxt.value = txt ;
+        // })
+        // zero.addEventListener("click",function(){
+        //     let txt = inputtxt.value ;
+        //     txt += "0" ;
+        //     inputtxt.value = txt ;
+        // })
+        // dzero.addEventListener("click",function(){
+        //     let txt = inputtxt.value ;
+        //     txt += "00" ;
+        //     inputtxt.value = txt ;
+        // })
+        // add.addEventListener("click",function(){
+        //     let txt = inputtxt.value ;
+        //     txt += "+" ;
+        //     inputtxt.value = txt ;
+        // })
+        // sub.addEventListener("click",function(){
+        //     let txt = inputtxt.value ;
+        //     txt += "-" ;
+        //     inputtxt.value = txt ;
+        // })
+        // multi.addEventListener("click",function(){
+        //     let txt = inputtxt.value ;
+        //     txt += "*" ;
+        //     inputtxt.value = txt ;
+        // })
+        // divide.addEventListener("click",function(){
+        //     let txt = inputtxt.value ;
+        //     txt += "/" ;
+        //     inputtxt.value = txt ;
+        // })
+        // dot.addEventListener("click",function(){
+        //     let txt = inputtxt.value ;
+        //     txt += "." ;
+        //     inputtxt.value = txt ;
+        // })
+        // eqaul.addEventListener("click",function(){
+        //     let txt = inputtxt.value ;
+        //     text = eval(txt) ;
+        //     inputtxt.value = text ;
+        // })
+        // backspace.addEventListener("click",function(){
+        //     let txt = inputtxt.value ;
+        //     txt = txt.substring(0,txt.length-1) ;
+        //     inputtxt.value = txt ;
+        // })
+    </script>
+</body>
+</html>
